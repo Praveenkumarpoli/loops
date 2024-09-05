@@ -1,0 +1,71 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #889d28;
+  }
+  
+  .container {
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 1140px;
+  }
+  
+  h1 {
+    position: relative;
+    margin-bottom: 45px;
+    font-family: "Oswald", sans-serif;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: start;
+  }
+  
+  .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    filter: blur(1px);
+    border-radius: 25px;
+  }
+  .item:hover {
+    flex: 7;
+    filter: blur(0px);
+  }
+  
+  .item-1 {
+    background-image:url(./task1.png);
+  }
+  
+  .item-2 {
+    background-image: url(./task2.png);
+  }
+  
+  .item-3 {
+    background-image: url(./task3.png);
+  }
+  
+  .item-4 {
+    background-image: url(./task4.png);
+  }
+  
+  .item-5 {
+    background-image: url(./task5.png);
+  }
+  .item-6 {
+    background-image: url(./task6.png);
+  }
+  @media screen and (min-width:600px){
+    h1{
+        text-align: center;
+    }
+  }
